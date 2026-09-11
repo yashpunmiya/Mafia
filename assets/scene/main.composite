@@ -1,0 +1,1936 @@
+{
+  "version": 1,
+  "components": [
+    {
+      "name": "core::Transform",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "position": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "z": {
+                "type": "number"
+              }
+            }
+          },
+          "scale": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "z": {
+                "type": "number"
+              }
+            }
+          },
+          "rotation": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "z": {
+                "type": "number"
+              },
+              "w": {
+                "type": "number"
+              }
+            }
+          },
+          "parent": {
+            "type": "integer"
+          }
+        },
+        "serializationType": "transform"
+      },
+      "data": {
+        "512": {
+          "json": {
+            "position": {
+              "x": 8,
+              "y": 0.05,
+              "z": 8
+            },
+            "scale": {
+              "x": 15.6,
+              "y": 0.1,
+              "z": 15.6
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "513": {
+          "json": {
+            "position": {
+              "x": 8,
+              "y": 0.08,
+              "z": 8
+            },
+            "scale": {
+              "x": 12,
+              "y": 0.05,
+              "z": 12
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "514": {
+          "json": {
+            "position": {
+              "x": 8,
+              "y": 0.39,
+              "z": 8
+            },
+            "scale": {
+              "x": 2.6,
+              "y": 0.58,
+              "z": 2.6
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "515": {
+          "json": {
+            "position": {
+              "x": 8,
+              "y": 0.6299999952316284,
+              "z": 8
+            },
+            "scale": {
+              "x": 1.7000000476837158,
+              "y": 0.11999999731779099,
+              "z": 1.7000000476837158
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "517": {
+          "json": {
+            "position": {
+              "x": 8,
+              "y": 0.10000000149011612,
+              "z": 4.449999809265137
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "518": {
+          "json": {
+            "position": {
+              "x": 4.623749367152206,
+              "y": 0.1,
+              "z": 6.902989669968936
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "519": {
+          "json": {
+            "position": {
+              "x": 5.91336235436172,
+              "y": 0.1,
+              "z": 10.872010330031063
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "520": {
+          "json": {
+            "position": {
+              "x": 10.086637645638278,
+              "y": 0.1,
+              "z": 10.872010330031063
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "521": {
+          "json": {
+            "position": {
+              "x": 11.376250632847796,
+              "y": 0.1,
+              "z": 6.902989669968938
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "522": {
+          "json": {
+            "position": {
+              "x": 8,
+              "y": 0.12,
+              "z": 2.1
+            },
+            "scale": {
+              "x": 5,
+              "y": 0.18,
+              "z": 2.4
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "523": {
+          "json": {
+            "position": {
+              "x": 2.6,
+              "y": 1.83,
+              "z": 2.96
+            },
+            "scale": {
+              "x": 0.55,
+              "y": 0.55,
+              "z": 0.55
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "524": {
+          "json": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "525": {
+          "json": {
+            "position": {
+              "x": 4,
+              "y": 1.68,
+              "z": 4
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "526": {
+          "json": {
+            "position": {
+              "x": 12,
+              "y": 1.68,
+              "z": 4
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "527": {
+          "json": {
+            "position": {
+              "x": 4,
+              "y": 1.68,
+              "z": 11.4
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "528": {
+          "json": {
+            "position": {
+              "x": 12,
+              "y": 1.68,
+              "z": 11.4
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "529": {
+          "json": {
+            "position": {
+              "x": 8,
+              "y": 0.75,
+              "z": 8
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "core::GltfContainer",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBGltfContainer"
+      },
+      "data": {
+        "524": {
+          "json": {
+            "src": "assets/models/moonlit-courtyard.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 3
+          }
+        },
+        "529": {
+          "json": {
+            "src": "assets/asset-packs/campfire/Fireplace_01/Fireplace_01.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 3
+          }
+        }
+      }
+    },
+    {
+      "name": "core::Material",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBMaterial"
+      },
+      "data": {
+        "512": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.19,
+                  "g": 0.21,
+                  "b": 0.23,
+                  "a": 1
+                },
+                "metallic": 0,
+                "roughness": 0.95
+              }
+            }
+          }
+        },
+        "513": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.19,
+                  "g": 0.21,
+                  "b": 0.23,
+                  "a": 1
+                },
+                "metallic": 0,
+                "roughness": 0.95
+              }
+            }
+          }
+        },
+        "514": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.22,
+                  "g": 0.105,
+                  "b": 0.065,
+                  "a": 1
+                },
+                "metallic": 0,
+                "roughness": 0.76
+              }
+            }
+          }
+        },
+        "515": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.17,
+                  "g": 0.15,
+                  "b": 0.18,
+                  "a": 1
+                },
+                "metallic": 0.58,
+                "roughness": 0.42
+              }
+            }
+          }
+        },
+        "517": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.2,
+                  "g": 0.16,
+                  "b": 0.32,
+                  "a": 1
+                },
+                "metallic": 0.08,
+                "roughness": 0.8
+              }
+            }
+          }
+        },
+        "518": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.2,
+                  "g": 0.16,
+                  "b": 0.32,
+                  "a": 1
+                },
+                "metallic": 0.08,
+                "roughness": 0.8
+              }
+            }
+          }
+        },
+        "519": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.2,
+                  "g": 0.16,
+                  "b": 0.32,
+                  "a": 1
+                },
+                "metallic": 0.08,
+                "roughness": 0.8
+              }
+            }
+          }
+        },
+        "520": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.2,
+                  "g": 0.16,
+                  "b": 0.32,
+                  "a": 1
+                },
+                "metallic": 0.08,
+                "roughness": 0.8
+              }
+            }
+          }
+        },
+        "521": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.2,
+                  "g": 0.16,
+                  "b": 0.32,
+                  "a": 1
+                },
+                "metallic": 0.08,
+                "roughness": 0.8
+              }
+            }
+          }
+        },
+        "522": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "albedoColor": {
+                  "r": 0.55,
+                  "g": 0.34,
+                  "b": 0.08,
+                  "a": 1
+                },
+                "emissiveColor": {
+                  "r": 0.3,
+                  "g": 0.13,
+                  "b": 0.025
+                },
+                "emissiveIntensity": 0.65,
+                "metallic": 0.32,
+                "roughness": 0.6
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "core::MeshCollider",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBMeshCollider"
+      },
+      "data": {
+        "512": {
+          "json": {
+            "collisionMask": 2,
+            "mesh": {
+              "$case": "cylinder",
+              "cylinder": {
+                "radiusTop": 0.5,
+                "radiusBottom": 0.5
+              }
+            }
+          }
+        },
+        "514": {
+          "json": {
+            "collisionMask": 2,
+            "mesh": {
+              "$case": "cylinder",
+              "cylinder": {
+                "radiusTop": 0.5,
+                "radiusBottom": 0.5
+              }
+            }
+          }
+        },
+        "515": {
+          "json": {
+            "collisionMask": 2,
+            "mesh": {
+              "$case": "cylinder",
+              "cylinder": {
+                "radiusTop": 0.42,
+                "radiusBottom": 0.5
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "core::MeshRenderer",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBMeshRenderer"
+      },
+      "data": {
+        "512": {
+          "json": {
+            "mesh": {
+              "$case": "cylinder",
+              "cylinder": {
+                "radiusTop": 0.5,
+                "radiusBottom": 0.5
+              }
+            }
+          }
+        },
+        "513": {
+          "json": {
+            "mesh": {
+              "$case": "cylinder",
+              "cylinder": {
+                "radiusTop": 0.5,
+                "radiusBottom": 0.5
+              }
+            }
+          }
+        },
+        "514": {
+          "json": {
+            "mesh": {
+              "$case": "cylinder",
+              "cylinder": {
+                "radiusTop": 0.5,
+                "radiusBottom": 0.5
+              }
+            }
+          }
+        },
+        "515": {
+          "json": {
+            "mesh": {
+              "$case": "cylinder",
+              "cylinder": {
+                "radiusTop": 0.42,
+                "radiusBottom": 0.5
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "core-schema::Name",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "serializationType": "utf8-string"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "512": {
+          "json": {
+            "value": "Council Floor"
+          }
+        },
+        "513": {
+          "json": {
+            "value": "Council Dais"
+          }
+        },
+        "514": {
+          "json": {
+            "value": "Council Table"
+          }
+        },
+        "515": {
+          "json": {
+            "value": "Voting Monument"
+          }
+        },
+        "517": {
+          "json": {
+            "value": "Council Seat 1"
+          }
+        },
+        "518": {
+          "json": {
+            "value": "Council Seat 2"
+          }
+        },
+        "519": {
+          "json": {
+            "value": "Council Seat 3"
+          }
+        },
+        "520": {
+          "json": {
+            "value": "Council Seat 4"
+          }
+        },
+        "521": {
+          "json": {
+            "value": "Council Seat 5"
+          }
+        },
+        "522": {
+          "json": {
+            "value": "Lobby Marker"
+          }
+        },
+        "523": {
+          "json": {
+            "value": "Lobby Sign"
+          }
+        },
+        "524": {
+          "json": {
+            "value": "Moonlit Courtyard Architecture"
+          }
+        },
+        "525": {
+          "json": {
+            "value": "Courtyard Lantern 4 4"
+          }
+        },
+        "526": {
+          "json": {
+            "value": "Courtyard Lantern 12 4"
+          }
+        },
+        "527": {
+          "json": {
+            "value": "Courtyard Lantern 4 11.4"
+          }
+        },
+        "528": {
+          "json": {
+            "value": "Courtyard Lantern 12 11.4"
+          }
+        },
+        "529": {
+          "json": {
+            "value": "Campfire"
+          }
+        }
+      }
+    },
+    {
+      "name": "core::TextShape",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBTextShape"
+      },
+      "data": {
+        "523": {
+          "json": {
+            "text": "MAFIA",
+            "font": 0,
+            "fontSize": 12,
+            "fontAutoSize": false,
+            "textAlign": 4,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "lineSpacing": 0,
+            "outlineWidth": 0.11999999731779099,
+            "outlineColor": {
+              "r": 0.12941177189350128,
+              "g": 0.12941177189350128,
+              "b": 0.12941177189350128
+            },
+            "textColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "core-schema::Tags",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            },
+            "serializationType": "array"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "tags": [
+              "Council",
+              "Lobby",
+              "PhaseReactive"
+            ]
+          }
+        },
+        "512": {
+          "json": {
+            "tags": [
+              "Council"
+            ]
+          }
+        },
+        "522": {
+          "json": {
+            "tags": [
+              "Lobby"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "core::LightSource",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBLightSource"
+      },
+      "data": {
+        "525": {
+          "json": {
+            "active": true,
+            "color": {
+              "r": 1,
+              "g": 0.59,
+              "b": 0.25
+            },
+            "intensity": 130,
+            "range": 6,
+            "shadow": false,
+            "type": {
+              "$case": "point",
+              "point": {}
+            }
+          }
+        },
+        "526": {
+          "json": {
+            "active": true,
+            "color": {
+              "r": 1,
+              "g": 0.59,
+              "b": 0.25
+            },
+            "intensity": 130,
+            "range": 6,
+            "shadow": false,
+            "type": {
+              "$case": "point",
+              "point": {}
+            }
+          }
+        },
+        "527": {
+          "json": {
+            "active": true,
+            "color": {
+              "r": 1,
+              "g": 0.59,
+              "b": 0.25
+            },
+            "intensity": 130,
+            "range": 6,
+            "shadow": false,
+            "type": {
+              "$case": "point",
+              "point": {}
+            }
+          }
+        },
+        "528": {
+          "json": {
+            "active": true,
+            "color": {
+              "r": 1,
+              "g": 0.59,
+              "b": 0.25
+            },
+            "intensity": 130,
+            "range": 6,
+            "shadow": false,
+            "type": {
+              "$case": "point",
+              "point": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "inspector::Nodes",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "entity": {
+                  "type": "integer",
+                  "serializationType": "entity"
+                },
+                "open": {
+                  "type": "boolean",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "boolean",
+                    "serializationType": "boolean"
+                  }
+                },
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "serializationType": "entity"
+                  },
+                  "serializationType": "array"
+                }
+              },
+              "serializationType": "map"
+            },
+            "serializationType": "array"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "value": [
+              {
+                "entity": 0,
+                "open": true,
+                "children": [
+                  512,
+                  513,
+                  514,
+                  515,
+                  517,
+                  518,
+                  519,
+                  520,
+                  521,
+                  522,
+                  523,
+                  524,
+                  525,
+                  526,
+                  527,
+                  528,
+                  529
+                ]
+              },
+              {
+                "entity": 1,
+                "children": []
+              },
+              {
+                "entity": 2,
+                "children": []
+              },
+              {
+                "entity": 512,
+                "children": []
+              },
+              {
+                "entity": 513,
+                "children": []
+              },
+              {
+                "entity": 514,
+                "children": []
+              },
+              {
+                "entity": 515,
+                "children": []
+              },
+              {
+                "entity": 517,
+                "children": []
+              },
+              {
+                "entity": 518,
+                "children": []
+              },
+              {
+                "entity": 519,
+                "children": []
+              },
+              {
+                "entity": 520,
+                "children": []
+              },
+              {
+                "entity": 521,
+                "children": []
+              },
+              {
+                "entity": 522,
+                "children": []
+              },
+              {
+                "entity": 523,
+                "children": []
+              },
+              {
+                "entity": 524,
+                "children": []
+              },
+              {
+                "entity": 525,
+                "children": []
+              },
+              {
+                "entity": 526,
+                "children": []
+              },
+              {
+                "entity": 527,
+                "children": []
+              },
+              {
+                "entity": 528,
+                "children": []
+              },
+              {
+                "entity": 529,
+                "children": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "inspector::TransformConfig",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "porportionalScaling": {
+            "type": "boolean",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "boolean",
+              "serializationType": "boolean"
+            }
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "512": {
+          "json": {}
+        },
+        "513": {
+          "json": {}
+        },
+        "514": {
+          "json": {}
+        },
+        "515": {
+          "json": {}
+        },
+        "517": {
+          "json": {}
+        },
+        "518": {
+          "json": {}
+        },
+        "519": {
+          "json": {}
+        },
+        "520": {
+          "json": {}
+        },
+        "521": {
+          "json": {}
+        },
+        "522": {
+          "json": {}
+        },
+        "523": {
+          "json": {}
+        },
+        "524": {
+          "json": {}
+        },
+        "525": {
+          "json": {}
+        },
+        "526": {
+          "json": {}
+        },
+        "527": {
+          "json": {}
+        },
+        "528": {
+          "json": {}
+        },
+        "529": {
+          "json": {}
+        },
+        "530": {
+          "json": {}
+        },
+        "66052": {
+          "json": {}
+        }
+      }
+    },
+    {
+      "name": "inspector::SceneMetadata-v5",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "description": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "thumbnail": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "ageRating": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "enum": [
+                "T",
+                "A"
+              ],
+              "default": "A",
+              "serializationType": "enum-string",
+              "enumObject": {
+                "Teen": "T",
+                "Adult": "A"
+              }
+            }
+          },
+          "categories": {
+            "type": "array",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "art",
+                  "game",
+                  "casino",
+                  "social",
+                  "music",
+                  "fashion",
+                  "crypto",
+                  "education",
+                  "shop",
+                  "business",
+                  "sports"
+                ],
+                "default": "game",
+                "serializationType": "enum-string",
+                "enumObject": {
+                  "ART": "art",
+                  "GAME": "game",
+                  "CASINO": "casino",
+                  "SOCIAL": "social",
+                  "MUSIC": "music",
+                  "FASHION": "fashion",
+                  "CRYPTO": "crypto",
+                  "EDUCATION": "education",
+                  "SHOP": "shop",
+                  "BUSINESS": "business",
+                  "SPORTS": "sports"
+                }
+              },
+              "serializationType": "array"
+            }
+          },
+          "author": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "email": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "tags": {
+            "type": "array",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "serializationType": "utf8-string"
+              },
+              "serializationType": "array"
+            }
+          },
+          "layout": {
+            "type": "object",
+            "properties": {
+              "base": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "integer",
+                    "serializationType": "int32"
+                  },
+                  "y": {
+                    "type": "integer",
+                    "serializationType": "int32"
+                  }
+                },
+                "serializationType": "map"
+              },
+              "parcels": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "x": {
+                      "type": "integer",
+                      "serializationType": "int32"
+                    },
+                    "y": {
+                      "type": "integer",
+                      "serializationType": "int32"
+                    }
+                  },
+                  "serializationType": "map"
+                },
+                "serializationType": "array"
+              }
+            },
+            "serializationType": "map"
+          },
+          "silenceVoiceChat": {
+            "type": "boolean",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "boolean",
+              "serializationType": "boolean"
+            }
+          },
+          "disablePortableExperiences": {
+            "type": "boolean",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "boolean",
+              "serializationType": "boolean"
+            }
+          },
+          "spawnPoints": {
+            "type": "array",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "serializationType": "utf8-string"
+                  },
+                  "default": {
+                    "type": "boolean",
+                    "serializationType": "optional",
+                    "optionalJsonSchema": {
+                      "type": "boolean",
+                      "serializationType": "boolean"
+                    }
+                  },
+                  "position": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "type": "object",
+                        "properties": {
+                          "single": {
+                            "type": "number",
+                            "serializationType": "float32"
+                          },
+                          "range": {
+                            "type": "array",
+                            "items": {
+                              "type": "number",
+                              "serializationType": "float32"
+                            },
+                            "serializationType": "array"
+                          }
+                        },
+                        "serializationType": "one-of"
+                      },
+                      "y": {
+                        "type": "object",
+                        "properties": {
+                          "single": {
+                            "type": "number",
+                            "serializationType": "float32"
+                          },
+                          "range": {
+                            "type": "array",
+                            "items": {
+                              "type": "number",
+                              "serializationType": "float32"
+                            },
+                            "serializationType": "array"
+                          }
+                        },
+                        "serializationType": "one-of"
+                      },
+                      "z": {
+                        "type": "object",
+                        "properties": {
+                          "single": {
+                            "type": "number",
+                            "serializationType": "float32"
+                          },
+                          "range": {
+                            "type": "array",
+                            "items": {
+                              "type": "number",
+                              "serializationType": "float32"
+                            },
+                            "serializationType": "array"
+                          }
+                        },
+                        "serializationType": "one-of"
+                      }
+                    },
+                    "serializationType": "map"
+                  },
+                  "cameraTarget": {
+                    "type": "object",
+                    "serializationType": "optional",
+                    "optionalJsonSchema": {
+                      "type": "object",
+                      "properties": {
+                        "x": {
+                          "type": "number",
+                          "serializationType": "float32"
+                        },
+                        "y": {
+                          "type": "number",
+                          "serializationType": "float32"
+                        },
+                        "z": {
+                          "type": "number",
+                          "serializationType": "float32"
+                        }
+                      },
+                      "serializationType": "map"
+                    }
+                  }
+                },
+                "serializationType": "map"
+              },
+              "serializationType": "array"
+            }
+          },
+          "skyboxConfig": {
+            "type": "object",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "object",
+              "properties": {
+                "fixedTime": {
+                  "type": "integer",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "integer",
+                    "serializationType": "int32"
+                  }
+                },
+                "transitionMode": {
+                  "type": "integer",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "integer",
+                    "enum": [
+                      0,
+                      1
+                    ],
+                    "default": 0,
+                    "serializationType": "enum-int",
+                    "enumObject": {
+                      "0": "TM_FORWARD",
+                      "1": "TM_BACKWARD",
+                      "TM_FORWARD": 0,
+                      "TM_BACKWARD": 1
+                    }
+                  }
+                }
+              },
+              "serializationType": "map"
+            }
+          },
+          "creator": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "disableNearbyVoiceChat": {
+            "type": "boolean",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "boolean",
+              "serializationType": "boolean"
+            }
+          },
+          "hideLandscapeTerrain": {
+            "type": "boolean",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "boolean",
+              "serializationType": "boolean"
+            }
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "name": "MAFIA",
+            "description": "MAFIA: Moonlit Village Council is a fast-paced 4–5 player social deduction game built for Decentraland. Players receive secret roles, act at night, bluff and debate during the day, then vote to uncover the Mafia before the village is taken over.\n\nDesigned for quick, mobile-friendly matches with private roles, strategic deception, voting, and instant replay.",
+            "thumbnail": "assets/images/5de7d123-3a53-4d8b-bf27-157e7b14161b.png",
+            "ageRating": "A",
+            "categories": [
+              "game",
+              "social"
+            ],
+            "author": "Yash Punmiya",
+            "email": "",
+            "tags": [],
+            "layout": {
+              "parcels": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "base": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "silenceVoiceChat": false,
+            "disablePortableExperiences": false,
+            "spawnPoints": [
+              {
+                "name": "SpawnArea1",
+                "default": true,
+                "position": {
+                  "x": {
+                    "$case": "range",
+                    "value": [
+                      6.5,
+                      9.5
+                    ]
+                  },
+                  "y": {
+                    "$case": "range",
+                    "value": [
+                      0,
+                      0
+                    ]
+                  },
+                  "z": {
+                    "$case": "range",
+                    "value": [
+                      0,
+                      3
+                    ]
+                  }
+                },
+                "cameraTarget": {
+                  "x": 8,
+                  "y": 1,
+                  "z": 8
+                }
+              }
+            ],
+            "skyboxConfig": {},
+            "creator": "",
+            "disableNearbyVoiceChat": false,
+            "hideLandscapeTerrain": false
+          }
+        }
+      }
+    },
+    {
+      "name": "asset-packs::ActionTypes",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "serializationType": "utf8-string"
+                },
+                "jsonSchema": {
+                  "type": "string",
+                  "serializationType": "utf8-string"
+                }
+              },
+              "serializationType": "map"
+            },
+            "serializationType": "array"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "value": [
+              {
+                "type": "play_animation",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"animation\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"loop\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"shouldReset\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_animation",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_state",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"state\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "start_tween",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\",\"enum\":[\"move_item\",\"rotate_item\",\"scale_item\",\"keep_rotating_item\"],\"default\":\"move_item\",\"serializationType\":\"enum-string\",\"enumObject\":{\"MOVE_ITEM\":\"move_item\",\"ROTATE_ITEM\":\"rotate_item\",\"SCALE_ITEM\":\"scale_item\",\"KEEP_ROTATING_ITEM\":\"keep_rotating_item\"}},\"end\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"},\"interpolationType\":{\"type\":\"string\",\"enum\":[\"linear\",\"easeinquad\",\"easeoutquad\",\"easequad\",\"easeinsine\",\"easeoutsine\",\"easeinoutsine\",\"easeinexpo\",\"easeoutexpo\",\"easeinoutexpo\",\"easeinelastic\",\"easeoutelastic\",\"easeinoutelastic\",\"easeinbounce\",\"easeoutbounce\",\"easeinoutbounce\"],\"default\":\"linear\",\"serializationType\":\"enum-string\",\"enumObject\":{\"LINEAR\":\"linear\",\"EASEINQUAD\":\"easeinquad\",\"EASEOUTQUAD\":\"easeoutquad\",\"EASEQUAD\":\"easequad\",\"EASEINSINE\":\"easeinsine\",\"EASEOUTSINE\":\"easeoutsine\",\"EASESINE\":\"easeinoutsine\",\"EASEINEXPO\":\"easeinexpo\",\"EASEOUTEXPO\":\"easeoutexpo\",\"EASEEXPO\":\"easeinoutexpo\",\"EASEINELASTIC\":\"easeinelastic\",\"EASEOUTELASTIC\":\"easeoutelastic\",\"EASEELASTIC\":\"easeinoutelastic\",\"EASEINBOUNCE\":\"easeinbounce\",\"EASEOUTEBOUNCE\":\"easeoutbounce\",\"EASEBOUNCE\":\"easeinoutbounce\"}},\"duration\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"direction\":{\"type\":\"object\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"}},\"speed\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_counter",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"counter\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "increment_counter",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"amount\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "decrease_counter",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"amount\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_sound",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"src\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"loop\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"volume\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"global\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_sound",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_visibility",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"visible\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"physicsCollider\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"collider\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"enum\":[0,1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768],\"default\":1,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"CL_NONE\",\"1\":\"CL_POINTER\",\"2\":\"CL_PHYSICS\",\"4\":\"CL_RESERVED1\",\"8\":\"CL_RESERVED2\",\"16\":\"CL_RESERVED3\",\"32\":\"CL_RESERVED4\",\"64\":\"CL_RESERVED5\",\"128\":\"CL_RESERVED6\",\"256\":\"CL_CUSTOM1\",\"512\":\"CL_CUSTOM2\",\"1024\":\"CL_CUSTOM3\",\"2048\":\"CL_CUSTOM4\",\"4096\":\"CL_CUSTOM5\",\"8192\":\"CL_CUSTOM6\",\"16384\":\"CL_CUSTOM7\",\"32768\":\"CL_CUSTOM8\",\"CL_NONE\":0,\"CL_POINTER\":1,\"CL_PHYSICS\":2,\"CL_RESERVED1\":4,\"CL_RESERVED2\":8,\"CL_RESERVED3\":16,\"CL_RESERVED4\":32,\"CL_RESERVED5\":64,\"CL_RESERVED6\":128,\"CL_CUSTOM1\":256,\"CL_CUSTOM2\":512,\"CL_CUSTOM3\":1024,\"CL_CUSTOM4\":2048,\"CL_CUSTOM5\":4096,\"CL_CUSTOM6\":8192,\"CL_CUSTOM7\":16384,\"CL_CUSTOM8\":32768}}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "attach_to_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"anchorPointId\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "detach_from_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_video_stream",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"src\":{\"type\":\"string\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"loop\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"volume\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"dclCast\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_video_stream",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_audio_stream",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"url\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"volume\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_audio_stream",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "teleport_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"mode\":{\"type\":\"string\",\"enum\":[\"to_coordinates\",\"to_world\"],\"default\":\"to_coordinates\",\"serializationType\":\"enum-string\",\"enumObject\":{\"TO_COORDINATES\":\"to_coordinates\",\"TO_WORLD\":\"to_world\"}},\"x\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"y\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"realm\":{\"type\":\"string\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "move_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"},\"cameraTarget\":{\"type\":\"object\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_default_emote",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"emote\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_custom_emote",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"src\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"loop\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "open_link",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"url\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "show_text",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"text\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"hideAfterSeconds\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"font\":{\"type\":\"integer\",\"enum\":[0,1,2],\"default\":0,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"F_SANS_SERIF\",\"1\":\"F_SERIF\",\"2\":\"F_MONOSPACE\",\"F_SANS_SERIF\":0,\"F_SERIF\":1,\"F_MONOSPACE\":2}},\"fontSize\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"textAlign\":{\"type\":\"integer\",\"enum\":[0,1,2,3,4,5,6,7,8],\"default\":4,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"TAM_TOP_LEFT\",\"1\":\"TAM_TOP_CENTER\",\"2\":\"TAM_TOP_RIGHT\",\"3\":\"TAM_MIDDLE_LEFT\",\"4\":\"TAM_MIDDLE_CENTER\",\"5\":\"TAM_MIDDLE_RIGHT\",\"6\":\"TAM_BOTTOM_LEFT\",\"7\":\"TAM_BOTTOM_CENTER\",\"8\":\"TAM_BOTTOM_RIGHT\",\"TAM_TOP_LEFT\":0,\"TAM_TOP_CENTER\":1,\"TAM_TOP_RIGHT\":2,\"TAM_MIDDLE_LEFT\":3,\"TAM_MIDDLE_CENTER\":4,\"TAM_MIDDLE_RIGHT\":5,\"TAM_BOTTOM_LEFT\":6,\"TAM_BOTTOM_CENTER\":7,\"TAM_BOTTOM_RIGHT\":8}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "hide_text",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "start_delay",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"},\"timeout\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_delay",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "start_loop",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"},\"interval\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_loop",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "clone_entity",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "remove_entity",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "show_image",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"src\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"align\":{\"type\":\"integer\",\"enum\":[0,1,2,3,4,5,6,7,8],\"default\":4,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"TAM_TOP_LEFT\",\"1\":\"TAM_TOP_CENTER\",\"2\":\"TAM_TOP_RIGHT\",\"3\":\"TAM_MIDDLE_LEFT\",\"4\":\"TAM_MIDDLE_CENTER\",\"5\":\"TAM_MIDDLE_RIGHT\",\"6\":\"TAM_BOTTOM_LEFT\",\"7\":\"TAM_BOTTOM_CENTER\",\"8\":\"TAM_BOTTOM_RIGHT\",\"TAM_TOP_LEFT\":0,\"TAM_TOP_CENTER\":1,\"TAM_TOP_RIGHT\":2,\"TAM_MIDDLE_LEFT\":3,\"TAM_MIDDLE_CENTER\":4,\"TAM_MIDDLE_RIGHT\":5,\"TAM_BOTTOM_LEFT\":6,\"TAM_BOTTOM_CENTER\":7,\"TAM_BOTTOM_RIGHT\":8}},\"height\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"width\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"hideAfterSeconds\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"text\":{\"type\":\"string\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"fontSize\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "hide_image",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"imageEntity\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "damage",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"radius\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"layer\":{\"type\":\"string\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"string\",\"enum\":[\"all\",\"player\",\"non_player\"],\"default\":\"all\",\"serializationType\":\"enum-string\",\"enumObject\":{\"ALL\":\"all\",\"PLAYER\":\"player\",\"NON_PLAYER\":\"non_player\"}}},\"hits\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "move_player_here",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "player_face_item",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "place_on_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "rotate_as_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "place_on_camera",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "rotate_as_camera",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_position",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"z\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_rotation",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"z\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_scale",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"z\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "follow_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"speed\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"x\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"y\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"z\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"minDistance\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_following_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "random",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "batch",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "heal_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"multiplier\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "claim_airdrop",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "lights_on",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "lights_off",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "lights_modify",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"active\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"color\":{\"type\":\"object\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"object\",\"properties\":{\"r\":{\"type\":\"number\"},\"g\":{\"type\":\"number\"},\"b\":{\"type\":\"number\"}},\"serializationType\":\"color3\"}},\"intensity\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "change_camera",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"virtualCameraEntity\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"entity\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "change_text",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"text\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"fontSize\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"color\":{\"type\":\"object\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"object\",\"properties\":{\"r\":{\"type\":\"number\"},\"g\":{\"type\":\"number\"},\"b\":{\"type\":\"number\"},\"a\":{\"type\":\"number\"}},\"serializationType\":\"color4\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_tween",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "slide_texture",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"direction\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"serializationType\":\"map\"},\"speed\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"movementType\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"enum\":[0,1],\"default\":0,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"TMT_OFFSET\",\"1\":\"TMT_TILING\",\"TMT_OFFSET\":0,\"TMT_TILING\":1}}},\"duration\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "freeze_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "unfreeze_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "change_collisions",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"visibleCollisions\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"invisibleCollisions\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "change_skybox",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"time\":{\"type\":\"integer\",\"serializationType\":\"int32\"},\"direction\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "reset_skybox",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "call_script_method",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"scriptPath\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"methodName\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"params\":{\"type\":\"object\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "log_to_console",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"message\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "delete",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "spawn_entity",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"src\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"}},\"serializationType\":\"map\"}"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "asset-packs::Counter",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "serializationType": "float32"
+          },
+          "value": {
+            "type": "integer",
+            "serializationType": "int32"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "id": 0,
+            "value": 0
+          }
+        }
+      }
+    }
+  ]
+}

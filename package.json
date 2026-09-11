@@ -1,0 +1,29 @@
+{
+  "name": "dcl-project",
+  "version": "1.0.0",
+  "description": "SDK7 Template scene",
+  "scripts": {
+    "start": "sdk-commands start",
+    "deploy": "sdk-commands deploy",
+    "build": "sdk-commands build",
+    "typecheck": "tsc --noEmit",
+    "test": "tsc -p tsconfig.tests.json && node .test-dist/tests/milestone-one.test.js && node .test-dist/tests/milestone-two.test.js && node .test-dist/tests/milestone-three.test.js && node .test-dist/tests/milestone-four.test.js && node .test-dist/tests/milestone-five.test.js && node .test-dist/tests/seating.test.js && node .test-dist/tests/seating-transport.test.js && node tests/courtyard-assets.test.cjs",
+    "upgrade-sdk": "npm install --save-dev @dcl/sdk@latest",
+    "upgrade-sdk:next": "npm install --save-dev @dcl/sdk@next",
+    "server-logs": "sdk-commands sdk-server-logs"
+  },
+  "devDependencies": {
+    "@dcl/js-runtime": "7.27.1-33533530571.commit-451d001",
+    "@dcl/sdk": "^7.27.1-33533530571.commit-451d001"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=6.0.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120,
+    "trailingComma": "none"
+  }
+}

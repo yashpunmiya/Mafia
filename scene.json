@@ -1,0 +1,71 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "MAFIA",
+    "description": "MAFIA: Moonlit Village Council is a fast-paced 4–5 player social deduction game built for Decentraland. Players receive secret roles, act at night, bluff and debate during the day, then vote to uncover the Mafia before the village is taken over.\n\nDesigned for quick, mobile-friendly matches with private roles, strategic deception, voting, and instant replay.",
+    "navmapThumbnail": "assets/images/5de7d123-3a53-4d8b-bf27-157e7b14161b.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "Yash Punmiya",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [
+    "game",
+    "social"
+  ],
+  "scene": {
+    "base": "0,0",
+    "parcels": [
+      "0,0"
+    ]
+  },
+  "spawnPoints": [
+    {
+      "name": "SpawnArea1",
+      "default": true,
+      "position": {
+        "x": [
+          6.5,
+          9.5
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          0,
+          3
+        ]
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled",
+    "nearbyVoiceChat": "enabled"
+  },
+  "creator": "",
+  "skyboxConfig": {},
+  "landscapeTerrain": true,
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "e5fc873c-f80a-479f-8c96-bb190b6d5915"
+  },
+  "authoritativeMultiplayer": true,
+  "worldConfiguration": {
+    "name": "feelsbar.dcl.eth"
+  },
+  "rating": "A"
+}

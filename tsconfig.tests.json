@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "outDir": ".test-dist",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/config/constants.ts",
+    "src/game/types.ts",
+    "src/game/game-controller.ts",
+    "src/game/timers.ts",
+    "src/game/roster.ts",
+    "src/game/discussion.ts",
+    "src/server/private-role-store.ts",
+    "src/server/night-action-store.ts",
+    "tests/**/*.ts"
+  ]
+}
